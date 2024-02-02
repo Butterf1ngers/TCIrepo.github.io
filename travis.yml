@@ -1,0 +1,7 @@
+
+os: linux
+rvm: 2.6.3
+deploy:
+  provider: pages:git
+  github-token: $GITHUB_TOKEN
+  edge: true # opt in to dpl v2
